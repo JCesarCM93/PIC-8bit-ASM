@@ -32,8 +32,8 @@ PSECT   start,class=ACODE,delta=2
 LOOP:
 	BTFSS	PORTA, 3	; pregunta el estado de A3
 	GOTO	S2		; si es cero salta a S2
-	BSF	LATA, 2		; poner en 1 A2
+	BSF	PORTA, 2	; poner en 1 A2
 	GOTO	LOOP		; ir a LOOP 
 S2:	;poner en 0 A2
-	BCF	LATA, 2
+	BCF	PORTA, 2
 	GOTO	LOOP		; ir a LOOP
