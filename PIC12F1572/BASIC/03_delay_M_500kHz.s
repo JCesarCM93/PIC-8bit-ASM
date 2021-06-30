@@ -6,7 +6,7 @@
 
 ;-------------------------------------------------------------------------------
 ; Descripción
-;	Ejemplo 2, encendido y apagado de un LED conectado en A2 con un periodo 
+;	Ejemplo 3, encendido y apagado de un LED conectado en A2 con un periodo 
 ;	máximo de 5ms, con frecuencia interna de 500KHz:125IPS
 ;------------------------------------------------------------------------------- 
 
